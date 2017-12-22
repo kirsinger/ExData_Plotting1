@@ -47,6 +47,7 @@ make_plot_from <- function(dataset, save_to) {
             y=Global_active_power,
             type='l',
             ylab='Global Active Power (kilowatts)',
+            xlab='',
         )
     )
     dev.off()
